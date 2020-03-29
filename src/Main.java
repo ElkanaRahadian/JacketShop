@@ -20,6 +20,7 @@ public class Main {
 		String DateJaket = "";
 		int PriceJaket = 0;
 		int inputanMenu = 0;
+		int HapusIndex = 0;
 		
 		do {
 			do {
