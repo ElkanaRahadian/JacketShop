@@ -50,9 +50,9 @@ public class Main {
 //					System.out.println("|1.  |JT739       |my jacket           |Leather          |17-12-2018           |Rp.17000    |");
 //					System.out.println("|2.  |JT152       |fire jacket         |Varsity          |12-11-2015           |Rp.10000    |");
 					for (int i = 0; i < VecJacketName.size(); i++) {
-						System.out.println(i + 1 + (". | ") + VecJacketCode.get(i) + ("  |  ") + VecJacketName.get(i)
-								+ ("  |  ") + VecJacketCategory.get(i) + ("  |  ") + VecReleaseDate.get(i) + ("  |  ")
-								+ VecJacketPrice.get(i) + ("  |  "));
+						System.out.println(("|") + i + 1 + (". |") + VecJacketCode.get(i) + ("       |") + VecJacketName.get(i)
+								+ ("            |") + VecJacketCategory.get(i) + ("           |") + VecReleaseDate.get(i) + ("           |")
+								+ VecJacketPrice.get(i) + ("       |"));
 						System.out.println(
 								"---------------------------------------------------------------------------------------------");
 						System.out.println("Press enter to continue..");
