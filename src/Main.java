@@ -54,6 +54,7 @@ public class Main {
 					}
 					
 					break ;
+					
 			 case 2 :
 				 do {
 					 System.out.println("Input jacket's name[name ends with ' jacket']: ");
@@ -85,13 +86,31 @@ public class Main {
 				 scan.nextLine();
 				 
 				 break ;
+				 
 			 case 3 :
-				 if {
+				 if {VecJacketName.size() == 0 ) {
+					 System.out.println("No jackets avalaible..");
+				 } else {
+					 System.out.println("---------------------------------------------------------------------------------------------");
+						System.out.println("|No. |Jacket Code |Jacket Name         |Category         |Release Date         |Price       |");
+						System.out.println("---------------------------------------------------------------------------------------------");
+						for (int i = 0; i < VecJacketName.size(); i++);
+						System.out.println(i + 1 + (". | ") + VecJacketCode.get(i) + ("  |  ") + VecJacketName.get(i) 
+						+ ("  |  ") + VecJacketCategory.get(i) + ("  |  ") + VecReleaseDate.get(i) + ("  |  ") + VecJacketPrice.get(i) 
+						+ ("  |  "));
+						System.out.println("---------------------------------------------------------------------------------------------");
+						System.out.println("Choose jacket's number to delete[1 - " + VecJacketName.size() + +"]");
+						HapusIndex = scan.nextInt(); scan.nextLine();
+						VecJacketName.remove(HapusIndex - 1);
+						System.out.println("Jacket removed!");
+						System.out.println("To continue press Enter");
+						scan.nextLine();
+				 }
+				 break;
 				}
 			
-			}
-		}
-			
+			} while(inputanMenu != 4);
+			System.out.println("Thank you for using this application!");
+		}			
 	}
-
 }
