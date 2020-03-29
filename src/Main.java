@@ -52,6 +52,7 @@ public class Main {
 						System.out.println("Press enter to continue..");
 						scan.nextLine();
 					}
+				}
 					
 					break ;
 					
@@ -88,7 +89,7 @@ public class Main {
 				 break ;
 				 
 			 case 3 :
-				 if {VecJacketName.size() == 0 ) {
+				 if (VecJacketName.size() == 0 ) {
 					 System.out.println("No jackets avalaible..");
 				 } else {
 					 System.out.println("---------------------------------------------------------------------------------------------");
@@ -106,11 +107,11 @@ public class Main {
 						System.out.println("To continue press Enter");
 						scan.nextLine();
 				 }
+				 }
 				 break;
-				}
+				
 			
 			} while(inputanMenu != 4);
 			System.out.println("Thank you for using this application!");
-		}			
-	}
+		}
 }
