@@ -1,6 +1,6 @@
 
 public class Jacket {
-	
+
 	String jacketCode;
 	String jacketName;
 	String jacketCategory;
@@ -10,37 +10,37 @@ public class Jacket {
 	public String getJacketCode() {
 		return jacketCode;
 	}
-	
+
 	public void setJacketCode(String jacketCode) {
 		this.jacketCode = jacketCode;
 	}
-	
+
 	public String getJacketName() {
-		return jacketName;		
+		return jacketName;
 	}
-	
+
 	public void setJacketName() {
 		this.jacketName = jacketName;
 	}
-	
+
 	public String getJacketCategory() {
-		return jacketCategory;		
+		return jacketCategory;
 	}
-	
+
 	public void setJacketCategory() {
 		this.jacketCategory = jacketCategory;
 	}
-	
+
 	public String getReleaseDate() {
 		return ReleaseDate;
 	}
-	
+
 	public void setReleaseDate(String releaseDate) {
 		this.ReleaseDate = releaseDate;
 	}
-	
+
 	public int getPrice() {
 		return price;
 	}
-	
+
 }
